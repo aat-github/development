@@ -1,0 +1,29 @@
+CREATE TABLE EMP99(
+ id INT NOT NULL AUTO_INCREMENT,
+ name VARCHAR(4000) NOT NULL,
+ salary INT NOT NULL,
+ designation VARCHAR(4000) NOT NULL,
+ PRIMARY KEY(id));
+ 
+ 
+CREATE TABLE USELOGIN(
+id INT(8) NOT NULL,
+password VARCHAR(10),
+PRIMARY KEY(id));
+
+CREATE TABLE EMPLOYEE(
+ id INT(8) NOT NULL,
+ name VARCHAR(50) NOT NULL,
+ age INT NOT NULL,
+ gender INT NOT NULL,
+ birthday DATE NOT NULL,
+ tel VARCHAR(15) NOT NULL,
+ address VARCHAR(100) NOT NULL,
+ category VARCHAR(50) NOT NULL,
+ joined_day DATE NOT NULL,
+ admin_auth INT NOT NULL,
+ PRIMARY KEY(id));
+
+
+insert into uselogin
+(id,password) values("10000001","1111111111");
